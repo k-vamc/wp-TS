@@ -5,7 +5,7 @@ resource "aws_route_table" "route" {
 
   route {
     cidr_block = "0.0.0.0/0"
-    gateway_id = aws_internet_gateway.vivek-gateway.id
+    gateway_id = aws_internet_gateway.vamsi-gateway.id
   }
   tags = {
     Name = "route to internet"
