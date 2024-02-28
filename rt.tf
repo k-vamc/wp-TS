@@ -1,7 +1,7 @@
 #route table creation
 
 resource "aws_route_table" "route" {
-  vpc_id = aws_vpc.vivek.id
+  vpc_id = aws_vpc.vamsi.id
 
   route {
     cidr_block = "0.0.0.0/0"
