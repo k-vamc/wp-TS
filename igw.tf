@@ -1,6 +1,6 @@
 #IGW creation
 
-resource "aws_internet_gateway" "vivek-gateway" {
-  vpc_id = aws_vpc.vivek.id
+resource "aws_internet_gateway" "vamsi-gateway" {
+  vpc_id = aws_vpc.vamsi.id
 }
 
