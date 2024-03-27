@@ -1,5 +1,5 @@
 resource "aws_instance" "wordpress" {
-  ami                         = "ami-0208423bef18c17d1"
+  ami                         = "ami-0f0d286737a6c4ef2"
   instance_type               = "t3.micro"
   key_name                    = "stockholm"
   vpc_security_group_ids      = [aws_security_group.web-sg.id]
